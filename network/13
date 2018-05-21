@@ -1,0 +1,12 @@
+# Using this command curl -I 'server' we get request from server with server type info 
+
+# example curl -I linuxnix.com
+
+# HTTP/1.1 301 Moved Permanently
+# Server: nginx/1.10.3												<-- server type: nginx
+# Date: Mon, 21 May 2018 17:19:29 GMT
+# Content-Type: text/html; charset=UTF-8
+# Connection: keep-alive
+# Location: https://46.101.170.54/
+# Last-Modified: Monday, 21-May-2018 17:19:29 GMT
+# Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0

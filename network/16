@@ -1,0 +1,4 @@
+# write new rule in /etc/hosts
+#
+# to reroute intra.42.fr address to 46.19.122.85 we need: 
+# echo "46.19.122.85 intra.42.fr" >> /etc/hosts
