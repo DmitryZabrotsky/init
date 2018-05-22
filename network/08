@@ -1,1 +1,4 @@
-http://whois.domaintools.com/slash16.org
+# We can find the provider of slash16.org by using whois util.
+# Info about him will be at "Registrar" part
+
+whois slash16.org
