@@ -1,0 +1,4 @@
+
+# then need to restart /etc/init.d/hostname.sh start
+
+/etc/hostname
