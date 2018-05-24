@@ -1,0 +1,2 @@
+#jobs -l to get process id
+sudo kill -9 [process id]
