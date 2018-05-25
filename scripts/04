@@ -7,7 +7,7 @@ if [ \"8f111d100ea459f68d333d63a8ef2205\" == \$(sudo md5sum /etc/crontab | awk '
 \
 	then
 \
-		echo \"/etc/crontab file has not been modified!\"
+		echo \"/etc/crontab has not been modified!\"
 \
 	else
 \
