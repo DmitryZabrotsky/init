@@ -1,0 +1,16 @@
+sudo echo "0 0 * * *
+\
+#!/bin/bash
+\
+\
+if [ \"8f111d100ea459f68d333d63a8ef2205\" == \$(sudo md5sum /etc/crontab | awk '{print $1}') ];
+\
+	then
+\
+		echo \"/etc/crontab file has not been modified!\"
+\
+	else
+\
+		echo \"WARNING! /etc/crontab has been modified!\" | mail -s \" ATTANTION! /etc/crontab has been modified!\" dzabrots@student.unit.ua
+\
+fi" >> /etc/crontab
