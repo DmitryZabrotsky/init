@@ -1,2 +1,3 @@
-#-h for human readble -d 1 for max depth
+#exact size of each folder of /var
+# -h for human readble -d 1 for max depth
 sudo du -h -d 1 /var
