@@ -1,1 +1,3 @@
+# on MACOS ~/.ssh/known_hosts
+# other UNIX like OS ~/.ssh/authorized_keys
 ~/.ssh/id_rsa
